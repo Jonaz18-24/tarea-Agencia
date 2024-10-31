@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Cabecera -->
+    <header class="header">
+        <div class="header-left">
+            <img src="img/dried-flowers-7173793_1280.jpg" alt="Oferta 50%" class="promo-image">
+            <div class="promo-text">50% Súper ofertas</div>
+            <div class="promo-dropdown">Aquí</div>
+        </div>
+        <h1 class="header-title">Agencia</h1>
+        <div class="header-right">
+            <a href="#" class="auth-link">Registrar</a>
+            <div class="divider"></div>
+            <a href="#" class="auth-link">Ingresar</a>
+        </div>
+    </header>
+
+    <!-- Iconos de redes sociales -->
+    <nav class="social-icons">
+        <a href="#"><i class='bx bxl-youtube'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-whatsapp'></i></a>
+    </nav>
+    <!-- Carrusel de imágenes -->
+    <section class="carousel">
+        <button class="carousel-button left" aria-label="Imagen anterior">&#10094;</button>
+        <div class="carousel-images">
+            <img src="img/anchor-7592445_1280.jpg" alt="Lugar turístico 1">
+            <img src="img/the-side-of-the-road-4259510_1280.jpg" alt="Lugar turístico 2">
+            <img src="img/tindari-7276929_1280.jpg" alt="Lugar turístico 3">
+        </div>
+        <button class="carousel-button right" aria-label="Siguiente imagen">&#10095;</button>
+        <div class="carousel-indicators">
+            <span class="indicator active" data-index="0"></span>
+            <span class="indicator" data-index="1"></span>
+            <span class="indicator" data-index="2"></span>
+        </div>
+    </section>
+        <!-- Sección de Destinos Europeos -->
+    <section class="destinations">
+        <h2>Destinos Europeos</h2>
+        <div class="destination-cards">
+            <div class="destination-card">
+                <img src="img/paris-3974650_1280.jpg" alt="París" class="destination-image">
+                <h3>París</h3>
+                <p>La ciudad del amor y la luz. Famosa por la Torre Eiffel y su rica historia cultural.</p>
+                <i class='bx bxs-flag-alt flag'></i> <!-- Ícono de Torre Eiffel para París -->
+                <i class='bx bxl-france country-flag'></i> <!-- Logo de Francia -->
+            </div>
+            <div class="destination-card">
+                <img src="img/colosseum-2182384_1280.jpg" alt="Roma" class="destination-image">
+                <h3>Roma</h3>
+                <p>La eterna ciudad, hogar del Coliseo y la Ciudad del Vaticano.</p>
+                <i class='bx bx-building-house flag'></i> <!-- Ícono de Coliseo para Roma -->
+                <i class='bx bxl-italy country-flag'></i> <!-- Logo de Italia -->
+            </div>
+            <div class="destination-card">
+                <img src="img/tindari-7276929_1280.jpg" alt="Londres" class="destination-image">
+                <h3>Londres</h3>
+                <p>Una metrópoli vibrante, conocida por el Big Ben y el Palacio de Buckingham.</p>
+                <i class='bx bx-time-five flag'></i> <!-- Ícono de Big Ben para Londres -->
+                <i class='bx bxl-united-kingdom country-flag'></i> <!-- Logo del Reino Unido -->
+            </div>
+        </div>
+    </section>
+    <!-- Sección de Comentarios -->
+    <section class="reviews">
+        <h2>Comentarios de Clientes</h2>
+        <div class="review-carousel">
+            <button class="review-button left" aria-label="Comentario anterior">&#10094;</button>
+            <div class="review-content">
+                <div class="review-item active">
+                    <img src="img/woman-5612838_640.jpg" alt="Usuario 1" class="user-image">
+                    <p class="review-text">"¡Increíble experiencia! El viaje a París fue mágico y todo estuvo perfectamente organizado. Sin duda, repetiré."</p>
+                    <div class="star-rating">
+                        <i class='bx bxs-star star'></i>
+                        <i class='bx bxs-star star'></i>
+                        <i class='bx bxs-star star'></i>
+                        <i class='bx bxs-star star'></i>
+                        <i class='bx bxs-star star'></i>
+                    </div>
+                    <span class="user-name">Juan Pérez</span>
+                </div>
+                <div class="review-item">
+                    <img src="img/not-no-3597086_640.jpg" alt="Usuario 2" class="user-image">
+                    <p class="review-text">"Todo fue perfecto. La atención al cliente fue excepcional, y los destinos elegidos fueron impresionantes."</p>
+                    <div class="star-rating">
+                        <i class='bx bxs-star star'></i>
+                        <i class='bx bxs-star star'></i>
+                        <i class='bx bxs-star star'></i>
+                        <i class='bx bxs-star star'></i>
+                        <i class='bx bxs-star star'></i>
+                    </div>
+                    <span class="user-name">María Gómez</span>
+                </div>
+                <div class="review-item">
+                    <img src="img/attractive-1869761_640.jpg" alt="Usuario 3" class="user-image">
+                    <p class="review-text">"La mejor agencia de viajes. Me ayudaron a planear un viaje a Roma que nunca olvidaré. ¡Gracias!"</p>
+                    <div class="star-rating">
+                        <i class='bx bxs-star star'></i>
+                        <i class='bx bxs-star star'></i>
+                        <i class='bx bxs-star star'></i>
+                        <i class='bx bxs-star star'></i>
+                        <i class='bx bxs-star star'></i>
+                    </div>
+                    <span class="user-name">Luis Torres</span>
+                </div>
+            </div>
+            <button class="review-button right" aria-label="Siguiente comentario">&#10095;</button>
+        </div>
+    </section>
+    <!-- Sección de Reservas -->
+    <section class="reservations">
+        <h2>Reservas</h2>
+        <div class="reservation-container">
+            <div class="reservation-box" id="local-box">
+                <h3>Local</h3>
+                <input type="text" placeholder="Ingresa el lugar" class="location-input" id="local-input" />
+                <button class="calendar-btn" id="local-calendar-btn">&#128197;</button>
+                <p class="date-selected" id="local-date-selected"></p>
+                <div class="calendar" id="local-calendar" style="display: none;">
+                    <h3>Selecciona una fecha</h3>
+                    <input type="date" id="local-date-picker">
+                    <button onclick="closeLocalCalendar()">Cerrar</button>
+                </div>
+            </div>
+            <div class="reservation-box" id="destination-box">
+                <h3>Destino</h3>
+                <input type="text" placeholder="Ingresa el destino" class="location-input" id="destination-input" />
+                <button class="calendar-btn" id="destination-calendar-btn">&#128197;</button>
+                <p class="date-selected" id="destination-date-selected"></p>
+                <div class="calendar" id="destination-calendar" style="display: none;">
+                    <h3>Selecciona una fecha</h3>
+                    <input type="date" id="destination-date-picker">
+                    <button onclick="closeDestinationCalendar()">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; <span id="current-year"></span> Derechos Reservados. Jonaz</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
